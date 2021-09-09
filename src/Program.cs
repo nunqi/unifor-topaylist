@@ -23,7 +23,7 @@ namespace src
                 }
 
             }
-            exit:; // Ficou meio estranho, mas dá erro se não tiver um ; depois do label
+            exit:; // Ficou meio estranho, mas precisa do ; depois do label
 
         }
     }

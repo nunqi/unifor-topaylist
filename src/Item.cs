@@ -10,6 +10,10 @@ class Item {
     que aparecia depois (quando tentava pegar o valor do SQLite em SqliteBroker.GetAllItems())
     */
     public string Value {get; set;}
+    /*
+    Podia ter usado polimorfismo para não ter que criar essa variável,
+    mas o projeto era simples demais para isso valer a pena.
+    */
     public string Type {get; set;}
 
     public Item(int id, string description, string value, string type) {
